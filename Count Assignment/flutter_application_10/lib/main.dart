@@ -42,7 +42,7 @@ class _MyAppState extends State<StatefulWidget> {
                       : Color.fromARGB(255, 39, 167, 176),
                 ),
               ),
-              SizedBox(
+               const SizedBox(
                 width: 60,
               ),
               InkWell(
