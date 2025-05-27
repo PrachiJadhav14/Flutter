@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,11 +26,9 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   children: [
                     const Text('                                   '),
-             
                     Image.asset('asset/Fork_Logo.jpg'),
                     const Text(
                       'Fork Infosystem',
-                      
                       style: TextStyle(
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
@@ -41,14 +38,13 @@ class MyApp extends StatelessWidget {
                         '                                                                                                                                                     '),
                     const Text(
                       'Register',
-                      style: TextStyle(   
+                      style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                           backgroundColor: Colors.blue,
                           fontSize: 15,
-                          
                           height: 1.9),
-                          textAlign:TextAlign.center,
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),
@@ -82,7 +78,7 @@ class MyApp extends StatelessWidget {
                       margin: const EdgeInsets.only(
                           bottom: 50, right: 80, left: 100, top: 50),
                       child: Image.asset(
-                      '/asset/ForkLogo.jpg',
+                        '/asset/ForkLogo.jpg',
                         // color:Color.fromARGB(230, 13, 80, 224),
                         fit: BoxFit.fill,
                       ),
@@ -117,7 +113,8 @@ class MyApp extends StatelessWidget {
                         Text(''),
                         Text(''),
                         Text(''),
-                        Text( 'ENQUIRY', 
+                        Text(
+                          'ENQUIRY',
                           style: TextStyle(
                             fontSize: 20,
                             color: Colors.black,
@@ -126,16 +123,16 @@ class MyApp extends StatelessWidget {
                             backgroundColor: Color.fromARGB(230, 8, 141, 207),
                             height: 1.8,
 
-  //                           ElevatedButton(
-  // onPressed: () {},
-  // style: ElevatedButton.styleFrom(
-  //   backgroundColor: Colors.blue,
-  //   foregroundColor: Colors.white,
-  //   elevation: 5,
-  //   shape: RoundedRectangleBorder(
-  //     borderRadius: BorderRadius.circular(12),
-  //   ),                    
-  // ),
+                            //                           ElevatedButton(
+                            // onPressed: () {},
+                            // style: ElevatedButton.styleFrom(
+                            //   backgroundColor: Colors.blue,
+                            //   foregroundColor: Colors.white,
+                            //   elevation: 5,
+                            //   shape: RoundedRectangleBorder(
+                            //     borderRadius: BorderRadius.circular(12),
+                            //   ),
+                            // ),
                           ),
                         ),
                       ],
