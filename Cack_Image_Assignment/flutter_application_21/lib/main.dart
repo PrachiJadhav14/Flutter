@@ -103,7 +103,7 @@ class _MyAppstate extends State<MyApp> {
                         width: 200,
                       ),
                       Container(
-                        height: 80,
+                        height: 50,
                         width: 200,
                         decoration: BoxDecoration(
                           border: Border.all(color: Colors.black, width: 3),
@@ -127,20 +127,22 @@ class _MyAppstate extends State<MyApp> {
                               Icons.food_bank_rounded,
                               color: Color.fromARGB(255, 53, 120, 55),
                             ),
-                          ],
+                          ]
                         ),
+                    
                       ),
                     ],
+
                   ),
                 ),
                 Container(
                   height: 320,
-                  width: 250,
+                  width: 200,
                   decoration: BoxDecoration(
                       color: Color.fromARGB(255, 218, 141, 54),
                       border: Border.all(color: Colors.black, width: 2)),
                   child: Image.asset(
-                    'assets/cack_img.jpg',
+                    'cack_img.jpg',
                     fit: BoxFit.fill,
                   ),
                 )
