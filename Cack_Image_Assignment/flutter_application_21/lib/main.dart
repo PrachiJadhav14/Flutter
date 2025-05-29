@@ -43,7 +43,6 @@ class _MyAppstate extends State<MyApp> {
                         alignment: Alignment.center,
                         child: const Text('Strawberry Pavlova'),
                       ),
-               
                       const SizedBox(
                         height: 15,
                         width: 200,
@@ -103,43 +102,59 @@ class _MyAppstate extends State<MyApp> {
                         width: 200,
                       ),
                       Container(
-                        height: 50,
+                        height: 70,
                         width: 200,
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.black, width: 3),
+                          border: Border.all(color: Colors.black, width: 2),
                           color: Colors.grey,
                         ),
                         child: const Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('           '),
-                            Icon(
-                              Icons.table_restaurant,
-                              color: Color.fromARGB(255, 53, 120, 55),
+                            Text('         '),
+                            Column(
+                              children: [
+                                Icon(
+                                  Icons.table_restaurant,
+                                  color: Color.fromARGB(255, 46, 110, 48),
+                                ),
+                                Text('PREP'),
+                                Text('25 mm'),
+                              ],
                             ),
-                            Text('        '),
-                            Icon(
-                              Icons.alarm,
-                              color: Color.fromARGB(255, 53, 120, 55),
+                            Text('     '),
+                            Column(
+                              children: [
+                                Icon(
+                                  Icons.alarm,
+                                  color: Color.fromARGB(255, 46, 110, 48),
+                                ),
+                                Text('COOK'),
+                                Text('1 HR'),
+                              ],
                             ),
-                            Text('        '),
-                            Icon(
-                              Icons.food_bank_rounded,
-                              color: Color.fromARGB(255, 53, 120, 55),
+                            Text('      '),
+                            Column(
+                              children: [
+                                Icon(
+                                  Icons.food_bank_rounded,
+                                  color: Color.fromARGB(255, 46, 110, 48),
+                                ),
+                                Text('FEED'),
+                                Text('4-6'),
+                              ],
                             ),
-                          ]
+                          ],
                         ),
-                    
                       ),
                     ],
-
                   ),
                 ),
                 Container(
                   height: 320,
                   width: 200,
                   decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 218, 141, 54),
+                      color: const Color.fromARGB(255, 218, 141, 54),
                       border: Border.all(color: Colors.black, width: 2)),
                   child: Image.asset(
                     'cack_img.jpg',
@@ -150,3 +165,39 @@ class _MyAppstate extends State<MyApp> {
             )));
   }
 }
+
+
+
+                //       Container(
+                //         height: 50,
+                //         width: 200,
+                //         decoration: BoxDecoration(
+                //           border: Border.all(color: Colors.black, width: 3),
+                //           color: Colors.grey,
+                //         ),
+                //         child: const Row(
+                //           crossAxisAlignment: CrossAxisAlignment.start,
+                //           children: [
+                //             Text('           '),
+                //             Icon(
+                //               Icons.table_restaurant,
+                //               color: Color.fromARGB(255, 53, 120, 55),
+                //             ),
+                //             Text('        '),
+                //             Icon(
+                //               Icons.alarm,
+                //               color: Color.fromARGB(255, 53, 120, 55),
+                //             ),
+                //             Text('        '),
+                //             Icon(
+                //               Icons.food_bank_rounded,
+                //               color: Color.fromARGB(255, 53, 120, 55),
+                //             ),
+                //           ]
+                //         ),
+                    
+                //       ),
+                //     ],
+
+                //   ),
+                // ),
